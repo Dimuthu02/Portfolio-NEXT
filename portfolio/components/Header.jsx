@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 py-25 px-4 pb-24">
+    <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-2 py-25 px-4">
       <div>
         <Image
           src={assets.profile_img}
@@ -14,7 +14,7 @@ const Header = () => {
           height={128}
         />
       </div>
-      <h3 className="flex items-end justify-center gap-2 text-xl md:text-2xl mb-3 ovoFont flex-wrap">
+      <h3 className="flex items-end justify-center gap-2 text-xl md:text-2xl mb-1 ovoFont flex-wrap">
         Hi! I'm Dimuthu Karunarathna{" "}
         <Image
           src={assets.hand_icon}
@@ -27,13 +27,12 @@ const Header = () => {
       <h1 className="text-3xl sm:text-5xl lg:text-6xl xl:text-[66px] ovoFont leading-tight">
         Full Stack developer based in Sri Lanka.
       </h1>
-      <p className="max-w-2xl mx-auto ovoFont text-lg sm:text-xl">
-        I am a passionate and dedicated full-stack developer with expertise in
-        building dynamic and responsive web applications. I love to create
-        innovative solutions that make a difference.
+      <p className="max-w-2xl mx-auto ovoFont text-lg sm:text-xl -mt-1">
+        Full-stack developer from Sri Lanka crafting modern, user-centered web
+        applications with React and Next.js.
       </p>
 
-      <div className="flex flex-col sm:flex-row items-center gap-4 mt-8">
+      <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
         <a
           className="px-8 sm:px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:bg-gray-900 transition-colors duration-200"
           href="#contact"
