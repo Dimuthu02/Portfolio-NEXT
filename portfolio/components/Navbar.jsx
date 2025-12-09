@@ -5,6 +5,11 @@ import { assets } from "@/assets/assets";
 const Navbar = () => {
   return (
     <>
+    <div>
+      <image
+    </div>
+
+
       <nav className="w-full fixed px-5 py-4 lg:px-8 xl:px-[8%] flex items-center justify-between z-50">
         <a href="#top">
           <Image
@@ -16,7 +21,7 @@ const Navbar = () => {
           />
         </a>
 
-        <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3">
+        <ul className=" hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white bg-opacity-50 ">
           <li>
             <a className="ovoFont" href="#top">
               Home
