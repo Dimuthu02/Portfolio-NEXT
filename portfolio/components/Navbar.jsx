@@ -18,24 +18,37 @@ const Navbar = () => {
 
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3">
           <li>
-            <a href="#top">Home</a>
+            <a className="ovoFont" href="#top">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#About">About me</a>
+            <a className="ovoFont" href="#About">
+              About me
+            </a>
           </li>
           <li>
-            <a href="#Services">Services</a>
+            <a className="ovoFont" href="#Services">
+              Services
+            </a>
           </li>
           <li>
-            <a href="#Work">My Work</a>
+            <a className="ovoFont" href="#Work">
+              My Work
+            </a>
           </li>
           <li>
-            <a href="#Contact">Contact me</a>
+            <a className="ovoFont" href="#Contact">
+              Contact me
+            </a>
           </li>
         </ul>
 
         <div>
-          <a className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4" href="#Contact">
+          <a
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 ovoFont"
+            href="#Contact"
+          >
             Contact
             <Image
               src={assets.arrow_icon}

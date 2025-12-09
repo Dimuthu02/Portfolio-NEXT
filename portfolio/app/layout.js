@@ -5,11 +5,13 @@ import "./globals.css";
 const outfitFont = Outfit({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  variable: "--font-outfit", // ADD THIS
 });
 
 const ovoFont = Ovo({
   subsets: ["latin"],
   weight: ["400"],
+  variable: "--font-ovo", // ADD THIS
 });
 
 export const metadata = {
