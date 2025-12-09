@@ -43,7 +43,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="ovoFont hover:text-rose-600 transition" href="#About">
+            <a className="ovoFont hover:text-rose-600 transition" href="#about">
               About me
             </a>
           </li>
