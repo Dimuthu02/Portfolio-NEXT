@@ -56,7 +56,11 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/50 backdrop-blur-sm shadow-sm border border-white/20">
+        <ul
+          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
+            isScroll ? "" : "bg-white shadow-sm bg-opacity-50"
+          }`}
+        >
           <li>
             <a
               className="ovoFont hover:text-rose-600 transition-colors duration-200 px-2 py-1 rounded"
