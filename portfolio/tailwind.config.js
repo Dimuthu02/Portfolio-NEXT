@@ -11,11 +11,13 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        dark: {
-          primary: "#111827",
-          secondary: "#1f2937",
-          accent: "#374151",
-        },
+        darkTheme: "#11001F",
+        darkSecondary: "#1a0a2e",
+        darkAccent: "#2d1b3d",
+      },
+      fontFamily: {
+        outfit: ["var(--font-outfit)"],
+        ovo: ["var(--font-ovo)"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",
@@ -30,6 +32,9 @@ module.exports = {
           "0%": { transform: "translateY(-10px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
+      },
+      transitionProperty: {
+        theme: "background-color, color, border-color",
       },
     },
   },

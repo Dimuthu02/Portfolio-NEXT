@@ -1,6 +1,6 @@
-import { assets, workData } from '@/assets/assets';
-import Image from 'next/image';
-import React from 'react'
+import { assets, workData } from "@/assets/assets";
+import Image from "next/image";
+import React from "react";
 
 const Work = () => {
   return (
@@ -43,8 +43,8 @@ const Work = () => {
       </div>
 
       <a
-        href="#Work"
-        className="mx-auto mt-20 flex w-max items-center justify-center gap-2 rounded-full border border-gray-700 bg-transparent px-10 py-3 text-gray-700 transition-all duration-500 hover:border-gray-900 hover:bg-amber-50 hover:text-black hover:shadow-lg ovoFont text-lg font-medium"
+        href="#work"
+        className="mx-auto mt-20 flex w-max items-center justify-center gap-2 rounded-full border border-gray-700 bg-transparent px-10 py-3 text-gray-700 transition-all duration-500 hover:border-gray-900 hover:shadow-lg ovoFont text-lg font-medium"
       >
         Show more
         <Image
@@ -57,6 +57,6 @@ const Work = () => {
       </a>
     </div>
   );
-}
+};
 
-export default Work
+export default Work;
