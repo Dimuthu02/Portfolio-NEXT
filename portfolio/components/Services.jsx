@@ -16,11 +16,7 @@ const Services = () => {
         {serviceData.map(({ icon, title, description, link }, index) => (
           <div
             key={index}
-            className="group relative border border-gray-200 rounded-xl px-8 py-12 
-            cursor-pointer transition-all duration-500 hover:duration-300
-            bg-white hover:bg-gradient-to-br hover:from-white hover:to-gray-50
-            hover:shadow-2xl hover:shadow-gray-200/50 hover:-translate-y-2
-            hover:border-transparent hover:scale-[1.02] overflow-hidden"
+            className="group relative border border-gray-200 rounded-xl px-8 py-12 cursor-pointer transition-all duration-500 hover:duration-300 bg-white hover:bg-gradient-to-br hover:from-white hover:to-gray-50 hover:shadow-2xl hover:shadow-gray-200/50 hover:-translate-y-2 hover:border-transparent hover:scale-[1.02] overflow-hidden"
           >
             {/* Subtle background effect on hover */}
             <div
